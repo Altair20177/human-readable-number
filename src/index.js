@@ -86,7 +86,7 @@ module.exports = function toReadable (number) {
   if(third == -1 && first === "eight" && myNum.length != 1) first = "eigh";
   
   if(third != -1) str = `${first} hundred ${second}ty ${third}`;
-  if(third == 0 && second == 0) str = `${first} hundred ${second} ${third}`;
+  if(third == 0 && second == 0) return `${first} hundred`;
   
   
   if(third == -1) str = `${first}ty ${second}`;
