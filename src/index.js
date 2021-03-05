@@ -72,7 +72,7 @@ module.exports = function toReadable (number) {
     if(third == "eight") second = "eighteen", third = "";
     if(third == "nine") second = "nineteen", third = "";
 
-    return `${first} hundred ${second} ${third}`;
+    return `${first} hundred ${second}`;
   }
   
   if(third != -1 && second === "two") second = "twen";
