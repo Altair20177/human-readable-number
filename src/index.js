@@ -1,6 +1,6 @@
 module.exports = function toReadable (number) {
   
-let myNum = String(n);
+let myNum = String(number);
 myNum = myNum.split("");
 
 let num, zero, n0, n1, n2, n3, n4, n5, n6, n7, n8, n9, first = -1, second = -1, third = -1, str;
@@ -16,17 +16,17 @@ n7 = "seven";
 n8 = "eight";
 n9 = "nine";
 
-if(n == 0) return "zero";    
-if(n == 10) return "ten";
-if(n == 11) return "eleven";
-if(n == 12) return "twelve";
-if(n == 13) return "thirteen";
-if(n == 14) return "fourteen";
-if(n == 15) return "fifteen";
-if(n == 16) return "sixteen";
-if(n == 17) return "seventeen";
-if(n == 18) return "eighteen";
-if(n == 19) return "nineteen";
+if(number == 0) return "zero";    
+if(number == 10) return "ten";
+if(number == 11) return "eleven";
+if(number == 12) return "twelve";
+if(number == 13) return "thirteen";
+if(number == 14) return "fourteen";
+if(number == 15) return "fifteen";
+if(number == 16) return "sixteen";
+if(number == 17) return "seventeen";
+if(number == 18) return "eighteen";
+if(number == 19) return "nineteen";
 
 for (let i = 0; i < myNum.length; i++)
 {
