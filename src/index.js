@@ -58,19 +58,7 @@ for (let i = 0; i < myNum.length; i++)
   if (i == 2) third = num;
 }
 
-if(third != -1 && second == "one")
-{
-  if(third == "") second = "ten";
-  if(third == "one") second = "eleven", third = "";
-  if(third == "two") second = "twelve", third = "";
-  if(third == "three") second = "thirteen", third = "";
-  if(third == "four") second = "fourteen", third = "";
-  if(third == "five") second = "fifteen", third = "";
-  if(third == "six") second = "sixteen", third = "";
-  if(third == "seven") second = "seventeen", third = "";
-  if(third == "eight") second = "eighteen", third = "";
-  if(third == "nine") second = "nineteen", third = "";
-}
+
 
 if(third != -1 && second === "two") second = "twen";
 if(third != -1 && second === "three") second = "thir";
